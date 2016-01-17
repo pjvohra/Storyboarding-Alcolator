@@ -25,7 +25,7 @@
 }
 - (IBAction)textFieldDidChange:(UITextField *)sender {
     NSString *enteredText = sender.text;
-    float enteredNumber = [enteredText floatValue];
+    float enteredNumber = [enteredText floatValue];\
     if (enteredNumber == 0) {
         // The user typed 0, or something that's not a number, so clear the field
         sender.text = nil;
@@ -35,6 +35,7 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    self.navigationItem.title = [NSString stringWithFormat:@"Whisky Shots: %f", sender.value];
 }
 
 - (IBAction)buttonPressed:(id)sender {

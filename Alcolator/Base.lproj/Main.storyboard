@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="-534" y="-240"/>
         </scene>
-        <!--Whiskey-->
+        <!--Whisky-->
         <scene sceneID="c4J-ft-dK1">
             <objects>
-                <viewController title="Whiskey" id="1al-0Y-cTA" customClass="WhiskeyViewController" sceneMemberID="viewController">
+                <viewController title="Whisky" id="1al-0Y-cTA" customClass="WhiskeyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BuE-yJ-7bp"/>
                         <viewControllerLayoutGuide type="bottom" id="dhJ-wG-GY2"/>
@@ -186,7 +186,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K93-NL-nB0">
                                 <rect key="frame" x="214" y="146" width="172" height="71"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="50"/>
-                                <state key="normal" title="Whiskey ">
+                                <state key="normal" title="Whisky ">
                                     <color key="titleColor" red="0.70196078431372544" green="0.40784313725490196" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
